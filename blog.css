@@ -205,6 +205,38 @@ hr {
   margin-top: 22px;
 }
 
+@media screen and (max-width: 1330px) {
+  .fourthFoot {
+    width: 100%;
+    float: none;
+    margin-left: 51px;
+    margin-top: 22px;
+  }
+}
+
+@media screen and (max-width: 718px) {
+  .firstFoot {
+    margin-left: 24px;
+  }
+
+  .secondFoot {
+    width: 36%;
+    float: none;
+    margin-top: 15px;
+    display: block;
+  }
+
+  .fourthFoot {
+    clear: both;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .fourthFoot {
+    width: 50%;
+  }
+}
+
 .fa {
   padding: 20px;
   font-size: 30px;
