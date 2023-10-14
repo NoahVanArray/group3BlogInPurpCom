@@ -37,7 +37,6 @@ hr {
   align-content: right;
 }
 
-/* Style the links inside the navigation bar */
 .navbar a {
   float: left;
   color: #f2f2f2;
@@ -52,18 +51,15 @@ hr {
   float: right;
 }
 
-/* Change the color of links on hover */
 .threeBts a:hover {
   background-color: #ddd;
   color: black;
 }
 
-/* Add a color to the active/current link */
 .navbar a.active {
   background-color: #E0DDAA;
   color: #141E27;
 }
-
 
 .bgImgHeader {
   width: 100%;
@@ -128,8 +124,8 @@ hr {
 }
 
 .body img {
-  align-items: center;
-  max-width: 50%;
+  max-width: 100%;
+  margin-top: 20px;
 }
 
 .author {
