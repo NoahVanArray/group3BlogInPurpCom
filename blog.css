@@ -164,32 +164,51 @@ hr {
   background-color: #141E27;
   color: white;
   width: 100%;
-  text-align: ;
   padding: 20px;
   margin-top: 40px; 
-  font-family: 'Ultra', serif;
+  font-family: 'Kumbh Sans', serif;
 }
 
-.footer .firstFoot {
-  width: 25%;
+.firstFoot {
+  width: 21%;
   float: left; 
+  margin-left: 55px;
 }
 
-.footer.secondFoot, .thirdFoot {
-  display: flex;
-  width: 37.5%;
-  float: right;
+.secondFoot {
+  width: 20%;
+  float: left;
   margin-top: 15px;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.thirdFoot {
+  width: 10%;
+  clear: both;
+  margin-top: 15px;
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+
+.thirdFoot a {
+  text-decoration: none;
+  color: white;
+}
+
+.fourthFoot {
+  width: 18%;
+  float: right;
+  margin-right: 124px;
+  margin-top: 22px;
 }
 
 .fa {
   padding: 20px;
   font-size: 30px;
   width: 30px;
-}
-
-.fa:hover {
-    opacity: 0.7;
 }
 
 /*jyjn*/
