@@ -63,28 +63,19 @@ hr {
 }
 
 .bgImgHeader {
-  width: 100%;
-  height: auto;
-  z-index: 0;
   position: relative;
   text-align: center;
-  color: white;
 }
 
-.firstHeader {
-  color: #203239;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
+
+
 
 .firstHeader #actualHead {
   font-family: 'Playfair Display', serif;
   margin-bottom: -5px;
   font-size: 50px;
   font-weight: 900;
-  max-width: ;
+  color: #141E27;
 }
 
 .firstHeader #subHead {
@@ -92,17 +83,13 @@ hr {
 }
 
 .header {
-  color: #203239;
+  color: #141E27;
 }
 
 .tag {
   font-family: 'Ultra', serif;
   font-size: 16px;
   color: #203239;
-}
-
-.header p{
-
 }
 
 .header header{
@@ -114,7 +101,7 @@ hr {
   padding: 5px;
   font-family: 'Kumbh Sans', sans-serif;
   font-size: 20px;
-  color: #203239;
+  color: #141E27;
 }
 
 .body {
@@ -129,6 +116,7 @@ hr {
 
 .author {
   background-color: #E0DDAA;
+  border-radius: 40px;
   padding: 50px;
   margin-top: 60px;
   margin-bottom: 60px;
@@ -136,7 +124,7 @@ hr {
 
 .author img {
   width: 100px;
-  border-radius: 20%;
+  border-radius: 40px;
   margin-top: 0px;
 }
 
